@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "client-migration"
+version = "0.0.1"
+description = "Migrates a clients data to DealCloud"
+authors = ["Cat Chomyk <cmc556115@gmail.com>"]
+
+
+packages = []
+include = ["ingestion.py"]
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+
+[tool.poetry.group.dev.dependencies]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
