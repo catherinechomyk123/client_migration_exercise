@@ -7,7 +7,7 @@
 
 ## Data model 
 
-![Data Model](EDA\data_model.png)
+![Data Model](EDA/data_model.png)
 
 ## Additional Enhancements
 
